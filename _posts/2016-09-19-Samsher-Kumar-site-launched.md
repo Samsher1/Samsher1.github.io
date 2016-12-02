@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Samsher Kumar, Launches Site"
-date: 2016-09-19
+title: "Introduction of SIP :"
 ---
 
 <h4>Introduction of SIP (Session Initiation Protocol) :</h4>
