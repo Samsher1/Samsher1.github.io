@@ -3,9 +3,8 @@ layout: post
 title: "Samsher Kumar, Launches Site"
 date: 2016-09-19
 ---
-<link href="http://Samsher1.github.io/post/index.html"/>
 
-Introduction of SIP (Session Initiation Protocol) :
+<h2>Introduction of SIP (Session Initiation Protocol) :</h2>
 
         SIP is limited to only the setup,modification and termission of session.
         It allows for the establishment of user location i.e translating from a user's name to their current network address.
@@ -14,7 +13,7 @@ Introduction of SIP (Session Initiation Protocol) :
         It allows for changing features of a session while it is in progress.
         It has nothing to do with quality of service(QoS).
 
-User Agents :
+<h2>User Agents :</h2>
 
         There are following two types of User Agents:
         
@@ -23,15 +22,15 @@ User Agents :
         2) User Agent Server
         
         
-User Agent Client :
+<h2>User Agent Client :</h2>
 
         It generates request and send those to servers.
         
-User Agent Server :
+<h2>User Agent Server :</h2>
 
         It gets request,process those requests and generates responses.
 
-Types of Servers :
+<h2>Types of Servers :</h2>
 
         There are following types of Servers:
         
@@ -44,19 +43,19 @@ Types of Servers :
         4) Location Server
         
         
-Proxy Server :
+<h2>Proxy Server :</h2>
 
         When a request is generated,the exact address of the recipient is not known in advance,so client sends the request to a proxy server.The server on behalf of  the client (as if giving a proxy for it) forwards the request to another proxy server or the recipient itself.
         
-Redirect Server :
+<h2>Redirect Server :</h2>
 
         A redirect server redirects the request back to the client indicating that the client needs to try a different route to get to the recipient.It generaly happen when a recipient has moved from its original position either temporarily or permamently.
         
-Registrar :
+<h2>Registrar :</h2>
 
         One of the prime jobs of these servers is to detect the location of an user in a network.Users from time refreshes their locations by registering (sending a special type of message) to registrar server.
         
-Location Server :
+<h2>Location Server :</h2>
 
         The addresses registered to a registrar server are stored in a location server.
         
