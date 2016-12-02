@@ -4,7 +4,7 @@ title: "Samsher Kumar, Launches Site"
 date: 2016-09-19
 ---
 
-<h2>Introduction of SIP (Session Initiation Protocol) :</h2>
+<h4>Introduction of SIP (Session Initiation Protocol) :</h4>
 
         SIP is limited to only the setup,modification and termission of session.
         It allows for the establishment of user location i.e translating from a user's name to their current network address.
@@ -13,7 +13,7 @@ date: 2016-09-19
         It allows for changing features of a session while it is in progress.
         It has nothing to do with quality of service(QoS).
 
-<h2>User Agents :</h2>
+<h4>User Agents :</h4>
 
         There are following two types of User Agents:
         
