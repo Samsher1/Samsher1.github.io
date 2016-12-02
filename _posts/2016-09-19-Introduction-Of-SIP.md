@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction of SIP :"
+title: "Introduction of SIP "
 ---
 
 <h4>Introduction of SIP (Session Initiation Protocol) :</h4>
