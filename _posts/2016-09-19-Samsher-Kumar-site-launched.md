@@ -13,9 +13,13 @@ SIP allows for changing features of a session while it is in progress.
 SIP has nothing to do with quality of service(QoS).
 
 User Agents :
+
         There are following two types of User Agents:
+        
         1) User Agent Client
+        
         2) User Agent Server
+        
         
 User Agent Client :
         It generates request and send those to servers.
@@ -23,11 +27,17 @@ User Agent Server :
         It gets request,process those requests and generates responses.
 
 Types of Servers :
+
         There are following types of Servers:
+        
         1) Proxy Server
+        
         2) Redirect Server
+        
         3) Registrar
+        
         4) Location Server
+        
         
 Proxy Server :
         When a request is generated,the exact address of the recipient is not known in advance,so client sends the request to a proxy server.The server on behalf of  the client (as if giving a proxy for it) forwards the request to another proxy server or the recipient itself.
