@@ -3,6 +3,7 @@ layout: post
 title: "Samsher Kumar, Launches Site"
 date: 2016-09-19
 ---
+<link href="http://Samsher1.github.io/post/index.html"/>
 
 Introduction of SIP (Session Initiation Protocol) :
 
