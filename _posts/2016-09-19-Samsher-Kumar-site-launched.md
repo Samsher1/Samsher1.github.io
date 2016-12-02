@@ -6,12 +6,12 @@ date: 2016-09-19
 
 Introduction of SIP (Session Initiation Protocol) :
 
-        SIP is limited to only the setup,modification and termission of session.
-        SIP allows for the establishment of user location i.e translating from a user's name to their current network address.
-        SIP provides for feature negotiation so that all of the participants in a session can agree on the features to be       supported among them.
-        SIP is a mechanism for call management.For example adding,dropping or transferring participants. 
-        SIP allows for changing features of a session while it is in progress.
-        SIP has nothing to do with quality of service(QoS).
+SIP is limited to only the setup,modification and termission of session.
+It allows for the establishment of user location i.e translating from a user's name to their current network address.
+It provides for feature negotiation so that all of the participants in a session can agree on the features to be       supported among them.
+It is a mechanism for call management.For example adding,dropping or transferring participants. 
+It allows for changing features of a session while it is in progress.
+It has nothing to do with quality of service(QoS).
 
 User Agents :
 
