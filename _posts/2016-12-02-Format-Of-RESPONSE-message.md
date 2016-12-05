@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Format of INVITE Request"
+title: "Format of RESPONSE message"
 ---
 
 
 
 Format of RESPONSE message :
+<br>
 <br>
 SIP/2.0 200OK
 Via: SIP/2.0/UDP site4.server2.com;branch=z9hg4bknashds8;recieved=192.0.2.3
@@ -22,41 +23,41 @@ Content-length: 131
 The first line in a response is called status line.
 
 <h2>Header Fields :</h2>
-<h3>Via :</h3>
+<h4>Via :</h4>
 
     There are more than one via field.This is because each element through which the INVITE request has passed has added its    identity in the via field.Three via fields are added by softphone of user1,server1 the first proxy server and server2 the second proxy server.The response retraces the path of INVITE using the via fields.On its way back,each element removes the corresponding Via field before forwarding it back to the caller.
     
-<h3>To :</h3>
+<h4>To :</h4>
 
     To field now contains a tag.This tag is used to represent the colee in a dialog.
     
-<h3>Contact :</h3>
+<h4>Contact :</h4>
 
     It contains the exact address of user2.So user1 doesn't need to use the proxy servers to find user2 in the future.
     
 It is 2xx response.However responses can be different depending on particular situations.
 
-<h4>Types of Responses :</h4>
+<h2>Types of Responses :</h2>
 
-<h3>1xx(Provisional) :</h3>
+<h4>1xx(Provisional) :</h4>
 
                   Request recieved,continuing to process the request.                  
-<h3>2xx(Success)     :</h3>
+<h4>2xx(Success)     :</h4>
                   The action was successfully recieved,understood and accepted.
                   
-<h3>3xx(Redirection)  :</h3>
+<h4>3xx(Redirection)  :</h4>
 
                   Further action needs to be taken in order to complete the request.
                   
-<h3>4xx(Client Error) :</h3>
+<h4>4xx(Client Error) :</h4>
 
                   The request contains bad syntax or cannot be fulfilled at this servers.
                   
-<h3>5xx(Server Error) :</h3>
+<h4>5xx(Server Error) :</h4>
 
                   The server failed to fulfill an apparently valid request.
                   
-<h3>6xx(Global Failure) :</h3>
+<h4>6xx(Global Failure) :</h4>
 
                    The request can't be fulfilled at any server.
                    
